@@ -4,7 +4,7 @@
 
 ## Abstract
 
-This artifact contains the source code of LoRAStencil, a novel stencil computing system designed to mitigate memory access redundancies on TCUs through low-rank adaptation.
+This artifact contains the source code of [LoRAStencil](https://dl.acm.org/doi/abs/10.1109/SC41406.2024.00059), a novel stencil computing system designed to mitigate memory access redundancies on TCUs through low-rank adaptation.
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ This artifact contains the source code of LoRAStencil, a novel stencil computing
 
 The code can be downloaded using git:
 ```
-git clone https://github.com/HPHEX/LoRAStencil.git
+git clone https://github.com/zondie17/LoRAStencil.git
 ```
 
 ## Compile
@@ -48,13 +48,13 @@ lorastencil_{x}d shape input_size time_size
 - `time_size` is the iteration time number.
 
 ## Contact
-If you have any questions, please email to the corresponding author at [kunli@microsoft.com](kunli@microsoft.com).
+If you have any questions, please email to the author at [zondie17@gmail.com](zondie17@gmail.com).
 
 ## Reference
 
 Yiwei Zhang, Kun Li, Liang Yuan, Jiawen Cheng, Yunquan Zhang, Ting Cao and Mao Yang. ["LoRAStencil: Low-Rank Adaptation of Stencil Computation on Tensor Cores."](https://dl.acm.org/doi/abs/10.1109/SC41406.2024.00059) In International Conference for High Performance Computing, Networking, Storage and Analysis (SC'24), pp. 839-855. IEEE Computer Society, 2024.
 
-If you use our code, please cite our paper:
+If you use our code, please consider cite our paper:
 
 ```angular2html
 @inproceedings{10.1109/SC41406.2024.00059,
